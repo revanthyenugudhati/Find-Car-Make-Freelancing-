@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/iv_ici"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/black"/>
+    <TextView
+        android:id="@+id/tv1_ici"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Identify Car Make"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess the Car Make"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv2_ici"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/et1_ici"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="\@"
+        android:background="@drawable/bkg"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Letter"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        tools:context=".Identify_the_car">
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/b1_ici"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|bottom"
+            android:text="Submit"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Freelancer1</string>
+    <string-array name="car_make">
+        <item>Select</item>
+        <item>Mercedes</item>
+        <item>Ferrari</item>
+        <item>Tata</item>
+        <item>Toyota</item>
+        <item>Mahindra</item>
+        <item>Suzuki</item>
+        <item>Maruti</item>
+        <item>Tesla</item>
+    </string-array>
+</resources>
